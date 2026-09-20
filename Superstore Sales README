@@ -1,0 +1,332 @@
+🛒 Superstore Sales Performance Analysis
+
+Tracking Sales, Profitability & Business Growth | 2014–2017
+
+
+📌 Project Overview
+
+This project focuses on analyzing Superstore sales data from 2014 to 2017 to understand how the business performed across different customers, products, categories, segments, and geographic regions.
+
+I built this Power BI dashboard to transform raw sales records into an interactive business performance report that makes it easier to identify revenue drivers, profitability patterns, customer activity, product performance, and sales trends over time.
+
+Rather than looking at sales as individual transactions, I approached the analysis from a business perspective by exploring questions such as:
+
+* How much revenue and profit did the business generate?
+* Which states contribute the most to revenue?
+* Which product categories drive sales?
+* Which customer segments generate the most revenue?
+* Which products contribute the most profit?
+* How have sales changed over time?
+* What areas of the business may require further attention?
+
+The final dashboard brings these findings together in one interactive view, allowing users to explore business performance using Region and Customer ID filters.
+
+
+🎯 Business Objective
+
+The main objective of this project was to analyze sales performance and provide a clear view of the factors influencing revenue, profitability, customer activity, product performance, and business growth.
+
+The analysis was designed to explore:
+
+* Sales performance
+* Profitability
+* Customer activity
+* Product contribution
+* Regional performance
+* Customer segmentation
+* Sales trends
+
+The goal was not simply to present numbers, but to make the data easier to understand and to be used for business decision-making.
+
+
+📂 Dataset
+
+The Superstore dataset contains 9,994 rows and 21 columns, covering sales transactions from 2014 to 2017.
+
+The dataset provides information across orders, customers, products, shipping, geography, sales, discounts, and profitability.
+
+Dataset Columns
+
+Category                             Columns
+
+Order Information                    Row ID, Order ID, Order Date, Ship Date, Ship Mode
+
+Customer Information                 Customer ID, Customer Name, Segment
+
+Geographic Information               Country, City, State, Postal Code, Region
+
+Product Information                  Product ID, Category, Sub-Category, Product Name
+
+Financial & Sales Metrics            Sales, Quantity, Discount, Profit
+
+Dataset Size
+
+* Rows: 9,994
+* Columns: 21
+* Period: 2014–2017
+
+🧹 Data Cleaning & Preparation
+
+Before building the dashboard, I reviewed and prepared the dataset to ensure the fields were suitable for analysis and visualization.
+
+1. Data Structure Review
+
+I reviewed the dataset structure to understand the available fields, data types, and the relationship between order, customer, product, geographic, and financial information.
+
+This helped determine which fields would be most useful for the different areas of analysis.
+
+2. Data Quality Checks
+
+The dataset was reviewed for potential data-quality issues, including:
+
+* Missing or blank values
+* Incorrect or inconsistent data types
+* Duplicate records
+* Inconsistent categorical values
+* Numerical fields requiring appropriate formatting
+
+3. Date Preparation
+
+The Order Date and Ship Date fields were prepared as date fields so the data could be analyzed across the 2014–2017 period.
+
+4. Numerical Field Preparation
+
+The following numerical fields were reviewed and prepared for analysis:
+
+* Sales
+* Quantity
+* Discount
+* Profit
+
+These fields were used to develop the dashboard’s KPIs and analytical visuals.
+
+5. Categorical Field Preparation
+
+Categorical fields such as:
+
+* Ship Mode
+* Segment
+* Region
+* Category
+* Sub-Category
+
+were reviewed to ensure they could be effectively used for filtering, grouping, and comparison.
+
+6. Analytical Preparation
+
+After the data preparation stage, the dataset was brought into Power BI for further analysis, where I developed the required KPIs, calculations, visualizations, and interactive filters.
+
+
+📊 Dashboard Overview
+
+The dashboard provides a high-level view of Superstore performance between 2014 and 2017.
+
+Key Performance Indicators
+
+Total Sales:$1M
+
+Total Profit:$132,000
+
+Total Customers:793
+
+Total Orders:5000
+
+Total Discount:$786
+
+Profit Margin:12.04%
+
+These KPIs provide a quick snapshot of overall business performance before moving into the detailed visual analysis.
+
+
+📈 Dashboard Analysis
+
+1. Top 10 States by Revenue
+
+This visual highlights the states contributing the highest revenue to the business.
+
+California generates the highest revenue at approximately $213,000 followed by:
+
+* New York — $148,000
+* Texas — $78,000
+* Washington — $57,000
+* Pennsylvania — $55,000
+
+This view helps identify the strongest geographic revenue contributors and provides a basis for further regional analysis.
+
+
+2. Sales Performance by Category
+
+The category analysis compares revenue contribution across the three major product categories:
+
+* Technology
+* Furniture
+* Office Supplies
+
+Technology represents the largest share of sales in the dashboard, followed by Furniture and Office Supplies.
+
+This provides insight into the categories contributing most significantly to overall sales.
+
+
+3. Sales Performance by Segment
+
+The dashboard compares performance across:
+
+* Consumer
+* Corporate
+* Home Office
+
+The Consumer segment accounts for the largest share of sales, followed by Corporate and Home Office.
+
+Understanding these differences can help the business evaluate where customer demand is strongest and where there may be opportunities to develop other customer segments.
+
+
+4. Top Products by Profit
+
+This visual identifies products generating the highest profit.
+
+It provides a profitability-focused perspective rather than looking at sales volume alone.
+
+This distinction is important because a product generating high sales does not necessarily generate the highest profit.
+
+
+5. Annual Sales Trend
+
+The annual sales trend shows how sales changed throughout the analysis period.
+
+The visual makes it possible to observe changes in sales performance between 2014 and 2017 and identify periods of stronger or weaker sales activity.
+
+This can serve as a starting point for investigating factors that may have contributed to changes in performance.
+
+
+🔍 Key Insights
+
+Several observations stand out from the dashboard analysis:
+
+💰 Strong Overall Sales Performance
+
+The business generated approximately $1M in total sales and $132K in total profit, resulting in a 12.04% profit margin.
+
+This provides a high-level view of the business’s financial performance during the period analyzed.
+
+🌎 Revenue Is Concentrated Across Specific States
+
+California is the strongest revenue-generating state in the dashboard, followed by New York and Texas.
+
+This indicates that a relatively small number of states contribute a significant portion of overall revenue.
+
+🛍️ Consumer Customers Drive the Largest Share of Sales
+
+The Consumer segment accounts for the largest proportion of sales compared with Corporate and Home Office customers.
+
+This highlights the importance of understanding consumer purchasing patterns and maintaining strong engagement within this segment.
+
+💻 Technology Is a Major Sales Contributor
+
+Technology represents the largest category contribution in the dashboard.
+
+This suggests that technology products play an important role in overall sales performance and deserve close monitoring from a product-performance perspective.
+
+📦 Product-Level Profitability Varies
+
+The Top Products by Profit analysis shows that profitability is not evenly distributed across products.
+
+This makes product-level analysis important when evaluating which products should receive additional attention, promotion, or inventory consideration.
+
+📅 Sales Performance Changes Over Time
+
+The annual sales trend shows variation across the four-year period rather than completely consistent growth.
+
+This provides an opportunity for deeper analysis into seasonal patterns, product demand, customer behavior, and regional changes.
+
+
+💡 Business Recommendations
+
+Based on the patterns identified in the dashboard, the following areas could be considered:
+
+1. Focus on High-Performing Regions
+
+Continue monitoring and strengthening performance in high-revenue states such as California and New York while investigating opportunities in lower-performing regions.
+
+2. Analyze Product Profitability Alongside Sales
+
+Products should not be evaluated based on revenue alone.
+
+Comparing sales, profit, and discount levels can help identify products that generate strong returns and those that may require pricing or promotional adjustments.
+
+3. Continue Strengthening the Consumer Segment
+
+Since Consumer customers account for the largest share of sales, understanding their purchasing patterns could help improve customer retention, product recommendations, and targeted promotions.
+
+4. Monitor the Impact of Discounts
+
+Discounts can help increase sales, but excessive discounting may reduce profitability.
+
+Monitoring the relationship between discounts, sales, and profit margins can support more informed promotional decisions.
+
+5. Investigate Sales Trends Over Time
+
+Periods of increased or reduced sales should be investigated further to understand whether changes were related to seasonality, product demand, customer behavior, or regional performance.
+
+
+🛠️ Tools & Technologies
+
+Microsoft Excel
+
+Used for initial data review, cleaning, and preparation.
+
+Microsoft Power BI
+
+Used for:
+
+* Data modeling
+* KPI development
+* Calculations
+* Data visualization
+* Interactive filtering
+* Dashboard development
+* Business analysis
+
+
+🖼️ Dashboard Preview
+
+C:\Users\lenovo\OneDrive\Изображения\Superstore Sales Performance Dashboard.png
+
+The dashboard provides an interactive overview of sales, profitability, customer activity, product performance, regional revenue, and sales trends.
+
+
+👩🏽‍💻 Project Owner
+
+Mabel Enyi
+
+Data Analyst | Power BI | SQL | Excel
+
+I developed this project as part of my data analytics portfolio to demonstrate how I approach data preparation, business analysis, KPI development, visualization, and insight generation.
+
+My focus throughout the project was to go beyond simply creating charts and instead build a dashboard that communicates the story behind the data and highlights information that can support business decisions.
+
+
+🚀 What This Project Demonstrates
+
+Through this project, I demonstrated my ability to:
+
+* Analyze transactional business data
+* Prepare and organize data for analysis
+* Perform data quality checks
+* Develop meaningful KPIs
+* Build interactive Power BI dashboards
+* Analyze sales and profitability
+* Compare customer segments
+* Evaluate product performance
+* Analyze geographic sales performance
+* Identify trends and patterns
+* Translate analytical findings into business recommendations
+* Present data in a clear and accessible format
+
+
+📌 Final Takeaway
+
+This project demonstrates how a dataset containing thousands of transactional records can be transformed into a clear and interactive business intelligence dashboard.
+
+By combining sales, profit, customer, product, category, segment, and geographic analysis, the dashboard provides a broader view of business performance and creates a foundation for deeper investigation and data-driven decision-making.
+
+Built with Microsoft Power BI & Excel | Superstore Analysis 2014–2017
